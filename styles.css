@@ -37,6 +37,7 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-top: 40px;
+  margin-bottom: 12px;
 }
 .order__text {
   font-size: 24px;
@@ -444,7 +445,7 @@
 }
 
 .social-links {
-  margin-top: 30px;
+  margin-top: 17px;
   margin-bottom: 23px;
 }
 @media screen and (min-width: 1400px) {
@@ -751,7 +752,7 @@
   margin-top: 12px;
 }
 .tip__image {
-  margin-top: 29px;
+  margin-top: 20px;
 }
 .tip__image-caption {
   font-size: 14px;
@@ -928,7 +929,7 @@ span.tip__subtitle {
     align-items: center;
     width: 100%;
     padding: 0;
-    padding-bottom: 67px;
+    padding-bottom: 50px;
   }
 }
 .feedback__title {
@@ -972,7 +973,7 @@ span.tip__subtitle {
   margin: 0 auto;
 }
 .feedback__illustration {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .feedback__illustration {
@@ -987,7 +988,7 @@ span.tip__subtitle {
   display: flex;
   justify-content: center;
   padding-left: 0;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 .dot-nav__item {
   display: inline-block;
@@ -1026,7 +1027,7 @@ span.tip__subtitle {
 @media screen and (min-width: 1400px) {
   .audience__details {
     max-width: 555px;
-    padding-top: 100px;
+    padding-top: 108px;
     margin: 0 auto 0 auto;
   }
 }
@@ -1040,6 +1041,7 @@ span.tip__subtitle {
 .audience__subtitle {
   margin: 0;
   font-weight: 700;
+  line-height: 40px;
   font-size: 40px;
   letter-spacing: -0.357147px;
   margin-top: 17px;
@@ -1249,7 +1251,7 @@ span.tip__subtitle {
   }
 }
 .communication__benefits {
-  margin-top: 74px;
+  margin-top: 33px;
 }
 @media screen and (min-width: 1400px) {
   .communication__benefits {
@@ -1365,10 +1367,12 @@ span.tip__subtitle {
   line-height: 34px;
   margin: 0;
   margin-top: 18px;
+  max-width: 280px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__description {
     margin-top: 30px;
+    max-width: 100%;
   }
 }
 .inbox__caption {
@@ -1435,6 +1439,11 @@ span.tip__subtitle {
   display: flex;
   flex-direction: column;
   max-width: 199px;
+}
+@media screen and (min-width: 1400px) {
+  .review__author-details {
+    max-width: 100%;
+  }
 }
 .review__author-name {
   margin: 0;
