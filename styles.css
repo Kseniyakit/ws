@@ -1043,7 +1043,7 @@ span.tip__subtitle {
   font-weight: 700;
   line-height: 40px;
   font-size: 40px;
-  letter-spacing: -0.357147px;
+  letter-spacing: -0.357143px;
   margin-top: 17px;
   text-align: center;
 }
@@ -1076,8 +1076,12 @@ span.tip__subtitle {
     justify-content: center;
   }
 }
+.audience__actions-btn {
+  color: #2B292D;
+  margin-top: 12px;
+}
 @media screen and (max-width: 1399px) {
-  .audience__action-btn {
+  .audience__actions-btn {
     width: 100%;
   }
 }
